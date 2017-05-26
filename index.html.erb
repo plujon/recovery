@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-
+require 'yaml'
+resources = YAML::load_file("data.yml")
+resources.select! { |x| x["url"] }
+# TODO: random sort
+-%>
+  <head>
+    <title>List of Recovery Resources | Pluckeye</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="description" content="A searchable list of porn recovery resources with <%= resources.size %> entries.  This page is intended to help people who are trying to quit porn find a recovery program that works for them.">
+
+    <link rel="mask-icon" sizes="any" href="images/p64.svg">
+    <link rel="icon" type="image/png" href="images/p64.png">
+
+    <link rel="stylesheet" type="text/css" href="css/datatables.min.css"/>
+    <script type="text/javascript" src="js/datatables.min.js"></script>
+  </head>
+<body>
+<div class="container">
+  <div>
+    <h2>Porn Recovery Resources
+      <small>a work in progress</small>
+    </h2>
+  </div>
+  <div class="row">
+    <div class="table">
+      <table id="thetable" class="table">
+        <caption>Various Recovery Resources</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <%- resources.each do |resource| -%>
+          <tr>
+            <td>
+              <a href="<%= resource["url"] %>" title="<%= resource["name"]%>">
+                <%= resource["name"] %>
+              </a>
+            </td>
+            <td><%= resource["type"] %></td>
+            <td><%= resource["description"] %></td>
+          </tr>
+          <%- end -%>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<%
+   # Local Variables:
+   # compile-command: "erb -T - index.html.erb >index.html && firefox index.html"
+   # End:
+   %>

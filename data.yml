@@ -1,0 +1,11 @@
+---
+- name: The Porn Effect
+  description: "Description goes here."
+  cost: free
+  url: http://www.theporneffect.com/
+  worldview: Christian
+- description: "Description goes here."
+  name: The Sacred Sexuality Project
+  cost: free
+  url: http://sacredsexualityproject.com/
+  worldview: Christian
