@@ -1,11 +1,20 @@
 ---
+- name: Awaken
+  type: retreats
+  url: http://awakenrecovery.com/
+  worldview: Christian
+- name: http://bebroken.com/
+  type: workshops
+  url: http://bebroken.com/
+  worldview: Christian
 - name: The Porn Effect
-  description: "Description goes here."
   cost: free
+  description: Description goes here.
+  type: program
   url: http://www.theporneffect.com/
   worldview: Christian
-- description: "Description goes here."
-  name: The Sacred Sexuality Project
+- name: The Sacred Sexuality Project
   cost: free
+  description: Description goes here.
   url: http://sacredsexualityproject.com/
   worldview: Christian
