@@ -35,7 +35,7 @@ resources.select! { |x| x["url"] }
         <thead>
           <tr>
             <th>Name</th>
-            <th>Type</th>
+            <th>Features</th>
             <th>Description</th>
           </tr>
         </thead>
@@ -47,7 +47,7 @@ resources.select! { |x| x["url"] }
                 <%= resource["name"] %>
               </a>
             </td>
-            <td><%= resource["type"] %></td>
+            <td><%= resource["features"].join(", ") %></td>
             <td><%= resource["description"] %></td>
           </tr>
           <%- end -%>

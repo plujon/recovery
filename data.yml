@@ -19,7 +19,8 @@
     online resources and programs that relate to porn addiction and the effects of
     porn.  The author of the site got the list of organizations from Internet searches
     and personal contacts.  The list is not vetted for quality of material.
-  features: links
+  features:
+  - links
   url: http://pluckeye.net/organizations.html
   worldview: Christian and other
 - name: https://setfreesummit.org/resources-and-tools/
@@ -28,7 +29,8 @@
     links to and descriptions of materials such as books, dvds, programs, and more
     offered by those who exhibited at the setfreesummit (the setfreesummit was focused
     on discussing porn use in the church).
-  features: links
+  features:
+  - links
   url: https://setfreesummit.org/resources-and-tools/
   worldview: Christian
 - name: Pure Desire
