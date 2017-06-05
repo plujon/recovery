@@ -1,20 +1,69 @@
 ---
-- name: Awaken
-  type: retreats
-  url: http://awakenrecovery.com/
+- name: Fight the New Drug
+  cost: free to $15
+  description: Fight the New Drug is an organization whose goal is to educate the
+    public and to encourage the culture at large to think critically about its current
+    acceptance of pornography.  FTND frequently does research and publishes stories
+    that other like-minded organizations reference.  They also have created a mobile
+    app called "Fortify" that is designed to help pornasexuals think more deeply about
+    the effects porn has on them and why they should quit using porn.  Clay Olsen
+    is the co-founder and main face of the organization.
+  features:
+  - mobile app
+  - research, studies, and stories
+  - cultural engagement
+  url: http://fightthenewdrug.org/
+- name: http://pluckeye.net/organizations.html
+  cost: free
+  description: The list of organizations on the Pluckeye contains links to various
+    online resources and programs that relate to porn addiction and the effects of
+    porn.  The author of the site got the list of organizations from Internet searches
+    and personal contacts.  The list is not vetted for quality of material.
+  features: links
+  url: http://pluckeye.net/organizations.html
+  worldview: Christian and other
+- name: https://setfreesummit.org/resources-and-tools/
+  cost: free
+  description: The resources and tools page of the setfreesummit site includes various
+    links to and descriptions of materials such as books, dvds, programs, and more
+    offered by those who exhibited at the setfreesummit (the setfreesummit was focused
+    on discussing porn use in the church).
+  features: links
+  url: https://setfreesummit.org/resources-and-tools/
   worldview: Christian
-- name: http://bebroken.com/
-  type: workshops
-  url: http://bebroken.com/
+- name: Pure Desire
+  cost: free+
+  description: Pure Desire is best know for their Conqueror DVD series with Ted Roberts.  The
+    DVD series is most useful in a male Christian recovery and accountability group.  Pure
+    Desire also has other materials, primarily books and counseling, helpful for ministers,
+    betrayed spouses, or for individuals trying to quit porn.
+  features:
+  - groupwork
+  - books
+  - counseling
+  - conferences
+  - speaker
+  url: http://www.puredesire.org/
   worldview: Christian
+- name: Reboot Nation
+  cost: free
+  features:
+  - forum
+  url: http://www.rebootnation.org/
+  worldview: non-religious
 - name: The Porn Effect
   cost: free
-  description: Description goes here.
-  type: program
+  description: The Porn Effect is designed to help individuals end their pornography
+    addiction.  Catholic in origin, the site contains a "battle plan" that encorporates
+    spiritual disciplines such as prayer, fasting, and accountability.  It is highly
+    regarded by the editor because it dares to recommend fasting and prayer.
+  features:
+  - program
   url: http://www.theporneffect.com/
   worldview: Christian
-- name: The Sacred Sexuality Project
+- name: Your Brain On Porn
   cost: free
-  description: Description goes here.
-  url: http://sacredsexualityproject.com/
-  worldview: Christian
+  features:
+  - articles
+  url: https://www.yourbrainonporn.com/
+  worldview: non-religious
