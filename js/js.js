@@ -43,7 +43,7 @@ $(function () {
       },
       {
         action: editThisPage,
-        titleAttr: 'If you do not know how to use github, feel free to use the contact me link on the github page.  If you would like to see a built-in table editor, that could be done.',
+        titleAttr: 'If you do not know how to use github, feel free to use the contact me link on the github page.  If you would like an in-page editor instead, let me know!',
         text: '<span class="glyphicon glyphicon-edit"></span> edit</div>'
       }
     ]});
