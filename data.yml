@@ -1,13 +1,13 @@
 ---
 - name: Fight the New Drug
   cost: free to $15
-  description: Fight the New Drug is an organization whose goal is to educate the
-    public and to encourage the culture at large to think critically about its current
-    acceptance of pornography.  FTND frequently does research and publishes stories
-    that other like-minded organizations reference.  They also have created a mobile
-    app called "Fortify" that is designed to help pornasexuals think more deeply about
-    the effects porn has on them and why they should quit using porn.  Clay Olsen
-    is the co-founder and main face of the organization.
+  description: Fight the New Drug (FTND) is an organization whose goal is to educate
+    the public and to encourage the culture at large to think critically about its
+    current acceptance of pornography.  FTND frequently does research and publishes
+    stories that other like-minded organizations reference.  They also have created
+    a mobile app called "Fortify" that is designed to help pornasexuals think more
+    deeply about the effects porn has on them and why they should quit using porn.  Clay
+    Olsen is the co-founder and main face of the organization.
   features:
   - mobile app
   - research, studies, and stories
@@ -49,6 +49,9 @@
   worldview: Christian
 - name: Reboot Nation
   cost: free
+  description: An online forum intended to help those seeking to quit porn (aka "rebooting")
+    find mutual support.  The site is non-religious, and it is related to Your Brain
+    On Porn.
   features:
   - forum
   url: http://www.rebootnation.org/
@@ -65,7 +68,10 @@
   worldview: Christian
 - name: Your Brain On Porn
   cost: free
+  description: Your Brain On Porn (YBOP) is a non-religious site that documents the
+    effect porn has on the brain.  It offers a variety of information and resources
+    for those hoping to quit porn.
   features:
   - articles
   url: https://www.yourbrainonporn.com/
-  worldview: non-religious
+  worldview: science
