@@ -1,4 +1,13 @@
 ---
+- name: Dirty Girls Ministries
+  description: Founded by Crystal Renaud, Dirty Girls Ministries hosts online groups
+    for women who are struggling with pornography and sexual addiction.
+  features:
+  - online groups
+  - weekly prayercast
+  - coaching by phone or video conferencing
+  url: http://dirtygirlsministries.com/
+  worldview: Christian
 - name: Fight the New Drug
   cost: free to $15
   description: Fight the New Drug (FTND) is an organization whose goal is to educate
@@ -74,4 +83,4 @@
   features:
   - articles
   url: https://www.yourbrainonporn.com/
-  worldview: science
+  worldview: scientific
