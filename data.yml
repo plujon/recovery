@@ -62,16 +62,6 @@
   - forum
   url: http://www.rebootnation.org/
   worldview: scientific
-- name: The Porn Effect
-  cost: free
-  description: The Porn Effect is designed to help individuals end their pornography
-    addiction.  Catholic in origin, the site contains a "battle plan" that encorporates
-    spiritual disciplines such as prayer, fasting, and accountability.  It is highly
-    regarded by the editor because it dares to recommend fasting and prayer.
-  features:
-  - program
-  url: http://www.theporneffect.com/
-  worldview: Christian
 - name: Your Brain On Porn
   cost: free
   description: Your Brain On Porn (YBOP) is a site that documents the effect porn
