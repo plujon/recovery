@@ -21,16 +21,6 @@
   - program
   url: http://fightthenewdrug.org/
   worldview: non-religious
-- name: http://pluckeye.net/organizations.html
-  cost: free
-  description: The list of organizations on the Pluckeye contains links to various
-    online resources and programs that relate to porn addiction and the effects of
-    porn.  The author of the site got the list of organizations from Internet searches
-    and personal contacts.  The list is not vetted for quality of material.
-  features:
-  - links
-  url: http://pluckeye.net/organizations.html
-  worldview: Christian and other
 - name: https://setfreesummit.org/resources-and-tools/
   cost: free
   description: The resources and tools page of the setfreesummit site includes various

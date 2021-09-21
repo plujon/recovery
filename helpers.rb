@@ -1,5 +1,5 @@
 def partial(filename)
-  contents = File.read(filename + ".html.erb")
+  contents = File.read(filename + ".erb")
   bind = binding
   ERB.new(contents, nil, "-").result(bind)
 end
